@@ -6,7 +6,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(base_dir + '/bin')
 driver_path = base_dir + '/bin/chromedriver'
 
