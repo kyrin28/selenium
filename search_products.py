@@ -1,6 +1,7 @@
 # -*- coding:UTF-8 -*-
 
-import os, sys
+import os
+import sys
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
